@@ -23,9 +23,11 @@ Pre-compute by hashing all sub strings of an entry string without one word each 
 Inserting each sub string into a hash-map and saving the missing words as the values (along with an input string/log entry identifier).
 This will allow us to find any matching sub-strings (differing only by a word) in O(1) time and saving the results together. 
 
+
 2. Changes given more time: 
 
-2.1. Separation into classes (code written as plain functions). 
+2.1. Separation into classes (code written as plain functions).
+
 2.2. Adding each operation as a strategy, implementing a matching Interface (e.g. different parser for matching strings with 2 words difference, etc.)
 
 
