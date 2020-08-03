@@ -5,10 +5,10 @@ input file location: resources folder
 
 
 Open questions:
-===============
+
 
 1. Code complexity:
-===================
+
 O(N*k) where N is size of input (number of log entries in file) and k is the maximum length of an entry. 
 
 Thought process: 
@@ -24,7 +24,7 @@ Inserting each sub string into a hash-map and saving the missing words as the va
 This will allow us to find any matching sub-strings (differing only by a word) in O(1) time and saving the results together. 
 
 2. Changes given more time: 
-===========================
+
 2.1. Separation into classes (code written as plain functions). 
 2.2. Adding each operation as a strategy, implementing a matching Interface (e.g. different parser for matching strings with 2 words difference, etc.)
 
