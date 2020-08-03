@@ -35,16 +35,7 @@ Upon scaling:
 
 - Microservice architecture (i.e separate processing service, etc.) for ךarge amounts of input files and concurrent processing.
 - Persistence: DB for saving history for log analysis, for sharing data between multi-source input files or multi-service operation.
-- DB sharding - logs are prone to grow to massive sizes.
-- Event sourcing architecture may be a good consideration for at least some DB tables (e.g. the hashes of the substrings).
-
-
-
-
-
-
-
-
-
+- DB sharding: Logs are prone to grow to massive sizes.
+- Event sourcing architecture may be a good consideration.
 
 
