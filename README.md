@@ -1,7 +1,7 @@
 # logdiff
 Log string comparator for tracking changes
 
-input file location: resources folder
+input file path: resources/input.txt
 
 
 Open questions:
